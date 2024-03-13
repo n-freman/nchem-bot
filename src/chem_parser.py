@@ -1,6 +1,6 @@
 import json
 
-import regex
+import re
 
 with open('data.json') as file:
     elements = json.load(file)
@@ -20,7 +20,7 @@ class ChemParser:
 
     @classmethod
     def search(cls, text: str) -> bool:
-        match = regex.match(cls.regex, text)
+        match = re.match(cls.regex, text)
         print(match.groups())
         return bool(match)
 
