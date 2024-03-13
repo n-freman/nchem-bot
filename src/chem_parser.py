@@ -21,7 +21,8 @@ class ChemParser:
     @classmethod
     def search(cls, text: str) -> bool:
         match = re.match(cls.regex, text)
-        print(match.groups())
+        if match:
+            print(match.groups())
         return bool(match)
 
     @classmethod

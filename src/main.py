@@ -10,6 +10,8 @@ from aiogram.filters import CommandStart
 from aiogram.types import Message
 from aiogram.utils.markdown import hbold
 
+from chem_parser import ChemParser
+
 load_dotenv('.env')
 
 # Bot token can be obtained via https://t.me/BotFather
@@ -33,18 +35,20 @@ async def command_start_handler(message: Message) -> None:
 
 
 @dp.message()
-async def echo_handler(message: types.Message) -> None:
-    """
-    Handler will forward receive a message back to the sender
-
-    By default, message handler will handle all message types (like a text, photo, sticker etc.)
-    """
+async def chem_handler(message: types.Message) -> None:
+    '''
+    Handler will check if the message is chem-message
+    and notify user about it.
+    '''
     try:
-        # Send a copy of the received message
-        await message.send_copy(chat_id=message.chat.id)
+        message_text = message.text
+        logging.debug(f'Got: [{message_text}] from @{message.from_user.username}')
+        is_chem_message = ChemParser.dispatch(message_text)
+        if is_chem_message:
+            message.answer('Good job! You got a chem-message')
     except TypeError:
-        # But not all the types is supported to be copied so need to handle it
-        await message.answer("Nice try!")
+        pass
+
 
 
 async def main() -> None:
