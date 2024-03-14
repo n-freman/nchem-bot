@@ -4,7 +4,7 @@ import sys
 from os import getenv
 
 from dotenv import load_dotenv
-from aiogram import Bot, Dispatcher, Router, types
+from aiogram import Bot, Dispatcher, types
 from aiogram.enums import ParseMode
 from aiogram.filters import CommandStart
 from aiogram.types import Message
@@ -13,7 +13,11 @@ from aiogram.utils.markdown import hbold
 from chem_parser import ChemParser
 
 load_dotenv('.env')
-
+logging.basicConfig(
+    filename='bot.log',
+    encoding='utf-8',
+    level=logging.DEBUG
+)
 # Bot token can be obtained via https://t.me/BotFather
 TOKEN = getenv("BOT_TOKEN")
 
@@ -45,7 +49,7 @@ async def chem_handler(message: types.Message) -> None:
         logging.debug(f'Got: [{message_text}] from @{message.from_user.username}')
         is_chem_message = ChemParser.dispatch(message_text)
         if is_chem_message:
-            message.answer('Good job! You got a chem-message')
+            await message.answer('Good job! You got a chem-message')
     except TypeError:
         pass
 
