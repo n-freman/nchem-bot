@@ -13,7 +13,7 @@ class ChemParser:
     titles = elements.keys()
 
     @classmethod
-    def dispatch(cls, text: str) -> List[List[str]]:
+    def dispatch(cls, text: str) -> List[str]:
         if len(text) == 0:
             raise EmptyTextError(
                 'Can not find elements in empty text'
@@ -21,14 +21,13 @@ class ChemParser:
         return cls._find_full_sequences(cls._search(cls._clean(text)))
 
     @classmethod
-    def _find_full_sequences(cls, results: Dict[str, Dict] | Literal[True]) -> List[List[str]]:
+    def _find_full_sequences(cls, results: Dict[str, Dict] | Literal[True]) -> List[str]:
     # Iterate over results
         if results is True:
-            return [['']]
+            return ['']
         if results == {}:
-            return False
+            return False # type: ignore
         combinations = []
-        print(results)
         for key in results.keys():
             result = cls._find_full_sequences(results[key])
             if not result:

@@ -20,6 +20,13 @@ logging.basicConfig(
 )
 # Bot token can be obtained via https://t.me/BotFather
 TOKEN = getenv("BOT_TOKEN")
+CONGRAT_MESSAGE = '''
+
+🎉 Congratulations, @%s! 🎉
+
+Your message, crafted from the elements %s,
+is truly remarkable! Keep up the fantastic work! 🔬💬
+'''
 
 # All handlers should be attached to the Router (or Dispatcher)
 dp = Dispatcher()
@@ -47,9 +54,10 @@ async def chem_handler(message: types.Message) -> None:
     try:
         message_text = message.text
         logging.debug(f'Got: [{message_text}] from @{message.from_user.username}')
-        is_chem_message = ChemParser.dispatch(message_text)
-        if is_chem_message:
-            await message.answer('Good job! You got a chem-message')
+        chem_message = ChemParser.dispatch(message_text)
+        if chem_message:
+            elements = ', '.join(chem_message)
+            await message.answer(CONGRAT_MESSAGE % (message.from_user.username, elements))
     except TypeError:
         pass
 
