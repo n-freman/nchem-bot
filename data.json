@@ -1,474 +1,592 @@
 {
-  "H": {
+  "h": {
     "name": "Hydrogen",
-    "no": 1
+    "no": 1,
+    "short_name": "H"
   },
-  "He": {
+  "he": {
     "name": "Helium",
-    "no": 2
+    "no": 2,
+    "short_name": "He"
   },
-  "Li": {
+  "li": {
     "name": "Lithium",
-    "no": 3
+    "no": 3,
+    "short_name": "Li"
   },
-  "Be": {
+  "be": {
     "name": "Beryllium",
-    "no": 4
+    "no": 4,
+    "short_name": "Be"
   },
-  "B": {
+  "b": {
     "name": "Boron",
-    "no": 5
+    "no": 5,
+    "short_name": "B"
   },
-  "C": {
+  "c": {
     "name": "Carbon",
-    "no": 6
+    "no": 6,
+    "short_name": "C"
   },
-  "N": {
+  "n": {
     "name": "Nitrogen",
-    "no": 7
+    "no": 7,
+    "short_name": "N"
   },
-  "O": {
+  "o": {
     "name": "Oxygen",
-    "no": 8
+    "no": 8,
+    "short_name": "O"
   },
-  "F": {
+  "f": {
     "name": "Fluorine",
-    "no": 9
+    "no": 9,
+    "short_name": "F"
   },
-  "Ne": {
+  "ne": {
     "name": "Neon",
-    "no": 10
+    "no": 10,
+    "short_name": "Ne"
   },
-  "Na": {
+  "na": {
     "name": "Sodium",
-    "no": 11
+    "no": 11,
+    "short_name": "Na"
   },
-  "Mg": {
+  "mg": {
     "name": "Magnesium",
-    "no": 12
+    "no": 12,
+    "short_name": "Mg"
   },
-  "Al": {
+  "al": {
     "name": "Aluminium",
-    "no": 13
+    "no": 13,
+    "short_name": "Al"
   },
-  "Si": {
+  "si": {
     "name": "Silicon",
-    "no": 14
+    "no": 14,
+    "short_name": "Si"
   },
-  "P": {
+  "p": {
     "name": "Phosphorus",
-    "no": 15
+    "no": 15,
+    "short_name": "P"
   },
-  "S": {
+  "s": {
     "name": "Sulfur",
-    "no": 16
+    "no": 16,
+    "short_name": "S"
   },
-  "Cl": {
+  "cl": {
     "name": "Chlorine",
-    "no": 17
+    "no": 17,
+    "short_name": "Cl"
   },
-  "Ar": {
+  "ar": {
     "name": "Argon",
-    "no": 18
+    "no": 18,
+    "short_name": "Ar"
   },
-  "K": {
+  "k": {
     "name": "Potassium",
-    "no": 19
+    "no": 19,
+    "short_name": "K"
   },
-  "Ca": {
+  "ca": {
     "name": "Calcium",
-    "no": 20
+    "no": 20,
+    "short_name": "Ca"
   },
-  "Sc": {
+  "sc": {
     "name": "Scandium",
-    "no": 21
+    "no": 21,
+    "short_name": "Sc"
   },
-  "Ti": {
+  "ti": {
     "name": "Titanium",
-    "no": 22
+    "no": 22,
+    "short_name": "Ti"
   },
-  "V": {
+  "v": {
     "name": "Vanadium",
-    "no": 23
+    "no": 23,
+    "short_name": "V"
   },
-  "Cr": {
+  "cr": {
     "name": "Chromium",
-    "no": 24
+    "no": 24,
+    "short_name": "Cr"
   },
-  "Mn": {
+  "mn": {
     "name": "Manganese",
-    "no": 25
+    "no": 25,
+    "short_name": "Mn"
   },
-  "Fe": {
+  "fe": {
     "name": "Iron",
-    "no": 26
+    "no": 26,
+    "short_name": "Fe"
   },
-  "Co": {
+  "co": {
     "name": "Cobalt",
-    "no": 27
+    "no": 27,
+    "short_name": "Co"
   },
-  "Ni": {
+  "ni": {
     "name": "Nickel",
-    "no": 28
+    "no": 28,
+    "short_name": "Ni"
   },
-  "Cu": {
+  "cu": {
     "name": "Copper",
-    "no": 29
+    "no": 29,
+    "short_name": "Cu"
   },
-  "Zn": {
+  "zn": {
     "name": "Zinc",
-    "no": 30
+    "no": 30,
+    "short_name": "Zn"
   },
-  "Ga": {
+  "ga": {
     "name": "Gallium",
-    "no": 31
+    "no": 31,
+    "short_name": "Ga"
   },
-  "Ge": {
+  "ge": {
     "name": "Germanium",
-    "no": 32
+    "no": 32,
+    "short_name": "Ge"
   },
-  "As": {
+  "as": {
     "name": "Arsenic",
-    "no": 33
+    "no": 33,
+    "short_name": "As"
   },
-  "Se": {
+  "se": {
     "name": "Selenium",
-    "no": 34
+    "no": 34,
+    "short_name": "Se"
   },
-  "Br": {
+  "br": {
     "name": "Bromine",
-    "no": 35
+    "no": 35,
+    "short_name": "Br"
   },
-  "Kr": {
+  "kr": {
     "name": "Krypton",
-    "no": 36
+    "no": 36,
+    "short_name": "Kr"
   },
-  "Rb": {
+  "rb": {
     "name": "Rubidium",
-    "no": 37
+    "no": 37,
+    "short_name": "Rb"
   },
-  "Sr": {
+  "sr": {
     "name": "Strontium",
-    "no": 38
+    "no": 38,
+    "short_name": "Sr"
   },
-  "Y": {
+  "y": {
     "name": "Yttrium",
-    "no": 39
+    "no": 39,
+    "short_name": "Y"
   },
-  "Zr": {
+  "zr": {
     "name": "Zirconium",
-    "no": 40
+    "no": 40,
+    "short_name": "Zr"
   },
-  "Nb": {
+  "nb": {
     "name": "Niobium",
-    "no": 41
+    "no": 41,
+    "short_name": "Nb"
   },
-  "Mo": {
+  "mo": {
     "name": "Molybdenum",
-    "no": 42
+    "no": 42,
+    "short_name": "Mo"
   },
-  "Tc": {
+  "tc": {
     "name": "Technetium",
-    "no": 43
+    "no": 43,
+    "short_name": "Tc"
   },
-  "Ru": {
+  "ru": {
     "name": "Ruthenium",
-    "no": 44
+    "no": 44,
+    "short_name": "Ru"
   },
-  "Rh": {
+  "rh": {
     "name": "Rhodium",
-    "no": 45
+    "no": 45,
+    "short_name": "Rh"
   },
-  "Pd": {
+  "pd": {
     "name": "Palladium",
-    "no": 46
+    "no": 46,
+    "short_name": "Pd"
   },
-  "Ag": {
+  "ag": {
     "name": "Silver",
-    "no": 47
+    "no": 47,
+    "short_name": "Ag"
   },
-  "Cd": {
+  "cd": {
     "name": "Cadmium",
-    "no": 48
+    "no": 48,
+    "short_name": "Cd"
   },
-  "In": {
+  "in": {
     "name": "Indium",
-    "no": 49
+    "no": 49,
+    "short_name": "In"
   },
-  "Sn": {
+  "sn": {
     "name": "Tin",
-    "no": 50
+    "no": 50,
+    "short_name": "Sn"
   },
-  "Sb": {
+  "sb": {
     "name": "Antimony",
-    "no": 51
+    "no": 51,
+    "short_name": "Sb"
   },
-  "Te": {
+  "te": {
     "name": "Tellurium",
-    "no": 52
+    "no": 52,
+    "short_name": "Te"
   },
-  "I": {
+  "i": {
     "name": "Iodine",
-    "no": 53
+    "no": 53,
+    "short_name": "I"
   },
-  "Xe": {
+  "xe": {
     "name": "Xenon",
-    "no": 54
+    "no": 54,
+    "short_name": "Xe"
   },
-  "Cs": {
+  "cs": {
     "name": "Caesium",
-    "no": 55
+    "no": 55,
+    "short_name": "Cs"
   },
-  "Ba": {
+  "ba": {
     "name": "Barium",
-    "no": 56
+    "no": 56,
+    "short_name": "Ba"
   },
-  "La": {
+  "la": {
     "name": "Lanthanum",
-    "no": 57
+    "no": 57,
+    "short_name": "La"
   },
-  "Ce": {
+  "ce": {
     "name": "Cerium",
-    "no": 58
+    "no": 58,
+    "short_name": "Ce"
   },
-  "Pr": {
+  "pr": {
     "name": "Praseodymium",
-    "no": 59
+    "no": 59,
+    "short_name": "Pr"
   },
-  "Nd": {
+  "nd": {
     "name": "Neodymium",
-    "no": 60
+    "no": 60,
+    "short_name": "Nd"
   },
-  "Pm": {
+  "pm": {
     "name": "Promethium",
-    "no": 61
+    "no": 61,
+    "short_name": "Pm"
   },
-  "Sm": {
+  "sm": {
     "name": "Samarium",
-    "no": 62
+    "no": 62,
+    "short_name": "Sm"
   },
-  "Eu": {
+  "eu": {
     "name": "Europium",
-    "no": 63
+    "no": 63,
+    "short_name": "Eu"
   },
-  "Gd": {
+  "gd": {
     "name": "Gadolinium",
-    "no": 64
+    "no": 64,
+    "short_name": "Gd"
   },
-  "Tb": {
+  "tb": {
     "name": "Terbium",
-    "no": 65
+    "no": 65,
+    "short_name": "Tb"
   },
-  "Dy": {
+  "dy": {
     "name": "Dysprosium",
-    "no": 66
+    "no": 66,
+    "short_name": "Dy"
   },
-  "Ho": {
+  "ho": {
     "name": "Holmium",
-    "no": 67
+    "no": 67,
+    "short_name": "Ho"
   },
-  "Er": {
+  "er": {
     "name": "Erbium",
-    "no": 68
+    "no": 68,
+    "short_name": "Er"
   },
-  "Tm": {
+  "tm": {
     "name": "Thulium",
-    "no": 69
+    "no": 69,
+    "short_name": "Tm"
   },
-  "Yb": {
+  "yb": {
     "name": "Ytterbium",
-    "no": 70
+    "no": 70,
+    "short_name": "Yb"
   },
-  "Lu": {
+  "lu": {
     "name": "Lutetium",
-    "no": 71
+    "no": 71,
+    "short_name": "Lu"
   },
-  "Hf": {
+  "hf": {
     "name": "Hafnium",
-    "no": 72
+    "no": 72,
+    "short_name": "Hf"
   },
-  "Ta": {
+  "ta": {
     "name": "Tantalum",
-    "no": 73
+    "no": 73,
+    "short_name": "Ta"
   },
-  "W": {
+  "w": {
     "name": "Tungsten",
-    "no": 74
+    "no": 74,
+    "short_name": "W"
   },
-  "Re": {
+  "re": {
     "name": "Rhenium",
-    "no": 75
+    "no": 75,
+    "short_name": "Re"
   },
-  "Os": {
+  "os": {
     "name": "Osmium",
-    "no": 76
+    "no": 76,
+    "short_name": "Os"
   },
-  "Ir": {
+  "ir": {
     "name": "Iridium",
-    "no": 77
+    "no": 77,
+    "short_name": "Ir"
   },
-  "Pt": {
+  "pt": {
     "name": "Platinum",
-    "no": 78
+    "no": 78,
+    "short_name": "Pt"
   },
-  "Au": {
+  "au": {
     "name": "Gold",
-    "no": 79
+    "no": 79,
+    "short_name": "Au"
   },
-  "Hg": {
+  "hg": {
     "name": "Mercury",
-    "no": 80
+    "no": 80,
+    "short_name": "Hg"
   },
-  "Tl": {
+  "tl": {
     "name": "Thallium",
-    "no": 81
+    "no": 81,
+    "short_name": "Tl"
   },
-  "Pb": {
+  "pb": {
     "name": "Lead",
-    "no": 82
+    "no": 82,
+    "short_name": "Pb"
   },
-  "Bi": {
+  "bi": {
     "name": "Bismuth",
-    "no": 83
+    "no": 83,
+    "short_name": "Bi"
   },
-  "Po": {
+  "po": {
     "name": "Polonium",
-    "no": 84
+    "no": 84,
+    "short_name": "Po"
   },
-  "At": {
+  "at": {
     "name": "Astatine",
-    "no": 85
+    "no": 85,
+    "short_name": "At"
   },
-  "Rn": {
+  "rn": {
     "name": "Radon",
-    "no": 86
+    "no": 86,
+    "short_name": "Rn"
   },
-  "Fr": {
+  "fr": {
     "name": "Francium",
-    "no": 87
+    "no": 87,
+    "short_name": "Fr"
   },
-  "Ra": {
+  "ra": {
     "name": "Radium",
-    "no": 88
+    "no": 88,
+    "short_name": "Ra"
   },
-  "Ac": {
+  "ac": {
     "name": "Actinium",
-    "no": 89
+    "no": 89,
+    "short_name": "Ac"
   },
-  "Th": {
+  "th": {
     "name": "Thorium",
-    "no": 90
+    "no": 90,
+    "short_name": "Th"
   },
-  "Pa": {
+  "pa": {
     "name": "Protactinium",
-    "no": 91
+    "no": 91,
+    "short_name": "Pa"
   },
-  "U": {
+  "u": {
     "name": "Uranium",
-    "no": 92
+    "no": 92,
+    "short_name": "U"
   },
-  "Np": {
+  "np": {
     "name": "Neptunium",
-    "no": 93
+    "no": 93,
+    "short_name": "Np"
   },
-  "Pu": {
+  "pu": {
     "name": "Plutonium",
-    "no": 94
+    "no": 94,
+    "short_name": "Pu"
   },
-  "Am": {
+  "am": {
     "name": "Americium",
-    "no": 95
+    "no": 95,
+    "short_name": "Am"
   },
-  "Cm": {
+  "cm": {
     "name": "Curium",
-    "no": 96
+    "no": 96,
+    "short_name": "Cm"
   },
-  "Bk": {
+  "bk": {
     "name": "Berkelium",
-    "no": 97
+    "no": 97,
+    "short_name": "Bk"
   },
-  "Cf": {
+  "cf": {
     "name": "Californium",
-    "no": 98
+    "no": 98,
+    "short_name": "Cf"
   },
-  "Es": {
+  "es": {
     "name": "Einsteinium",
-    "no": 99
+    "no": 99,
+    "short_name": "Es"
   },
-  "Fm": {
+  "fm": {
     "name": "Fermium",
-    "no": 100
+    "no": 100,
+    "short_name": "Fm"
   },
-  "Md": {
+  "md": {
     "name": "Mendelevium",
-    "no": 101
+    "no": 101,
+    "short_name": "Md"
   },
-  "No": {
+  "no": {
     "name": "Nobelium",
-    "no": 102
+    "no": 102,
+    "short_name": "No"
   },
-  "Lr": {
+  "lr": {
     "name": "Lawrencium",
-    "no": 103
+    "no": 103,
+    "short_name": "Lr"
   },
-  "Rf": {
+  "rf": {
     "name": "Rutherfordium",
-    "no": 104
+    "no": 104,
+    "short_name": "Rf"
   },
-  "Db": {
+  "db": {
     "name": "Dubnium",
-    "no": 105
+    "no": 105,
+    "short_name": "Db"
   },
-  "Sg": {
+  "sg": {
     "name": "Seaborgium",
-    "no": 106
+    "no": 106,
+    "short_name": "Sg"
   },
-  "Bh": {
+  "bh": {
     "name": "Bohrium",
-    "no": 107
+    "no": 107,
+    "short_name": "Bh"
   },
-  "Hs": {
+  "hs": {
     "name": "Hassium",
-    "no": 108
+    "no": 108,
+    "short_name": "Hs"
   },
-  "Mt": {
+  "mt": {
     "name": "Meitnerium",
-    "no": 109
+    "no": 109,
+    "short_name": "Mt"
   },
-  "Ds": {
+  "ds": {
     "name": "Darmstadtium",
-    "no": 110
+    "no": 110,
+    "short_name": "Ds"
   },
-  "Rg": {
+  "rg": {
     "name": "Roentgenium",
-    "no": 111
+    "no": 111,
+    "short_name": "Rg"
   },
-  "Cn": {
+  "cn": {
     "name": "Copernicium",
-    "no": 112
+    "no": 112,
+    "short_name": "Cn"
   },
-  "Nh": {
+  "nh": {
     "name": "Nihonium",
-    "no": 113
+    "no": 113,
+    "short_name": "Nh"
   },
-  "Fl": {
+  "fl": {
     "name": "Flerovium",
-    "no": 114
+    "no": 114,
+    "short_name": "Fl"
   },
-  "Mc": {
+  "mc": {
     "name": "Moscovium",
-    "no": 115
+    "no": 115,
+    "short_name": "Mc"
   },
-  "Lv": {
+  "lv": {
     "name": "Livermorium",
-    "no": 116
+    "no": 116,
+    "short_name": "Lv"
   },
-  "Ts": {
+  "ts": {
     "name": "Tennessine",
-    "no": 117
+    "no": 117,
+    "short_name": "Ts"
   },
-  "Og": {
+  "og": {
     "name": "Oganesson",
-    "no": 118
+    "no": 118,
+    "short_name": "Og"
   }
 }
